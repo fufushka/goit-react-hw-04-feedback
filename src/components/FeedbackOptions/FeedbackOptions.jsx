@@ -2,8 +2,8 @@ import React from 'react';
 import { feedbacks } from '../../utils/Feedbacks';
 import css from './FeedbackOptions.module.scss';
 import { nanoid } from 'nanoid';
-
 // import Section from './Section/Section';
+
 const FeedbackOptions = ({ onLeaveFeedback }) => {
   return (
     <div className={css.buttonContainer}>
